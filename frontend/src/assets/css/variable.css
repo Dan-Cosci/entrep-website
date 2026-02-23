@@ -1,0 +1,32 @@
+:root{
+  --clr-red-100:#ffeaea;
+  --clr-red-200:#ffcfcf;
+  --clr-red-300:#ffb3b3;
+  --clr-red-400:#ff8f8f;
+  --clr-red-500:#ff6b6b;
+  --clr-red-600:#e05555;
+  --clr-red-700:#b84242;
+  --clr-red-800:#913030;
+  --clr-red-900:#661f1f;
+
+  --clr-blue-100:#eef6ff;
+  --clr-blue-200:#d9eaff;
+  --clr-blue-300:#c2ddff;
+  --clr-blue-400:#a9cfff;
+  --clr-blue-500:#8ec5ff; 
+  --clr-blue-600:#6ea8dc;
+  --clr-blue-700:#4f89b8;
+  --clr-blue-800:#356a93;
+  --clr-blue-900:#1f4d6e;
+
+  --clr-white:#fff;
+  --clr-black:#000;
+
+  --fs-sm:.8rem;
+  --fs-md:1rem;
+  --fs-lg:1.2rem;
+  --fs-xl:1.4rem;
+  --fs-2xl:1.6rem;
+  --fs-3xl:1.8rem;
+  --fs-4xl:2rem;
+}
