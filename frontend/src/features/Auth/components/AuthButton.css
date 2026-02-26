@@ -17,7 +17,7 @@
   }
 
   &:active{
-    background-color: var(--clr-earth-500);
+    background-color: var(--clr-earth-300);
   }
 
 
