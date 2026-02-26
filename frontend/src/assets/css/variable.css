@@ -1,23 +1,58 @@
 :root{
-  --clr-red-100:#ffeaea;
-  --clr-red-200:#ffcfcf;
-  --clr-red-300:#ffb3b3;
-  --clr-red-400:#ff8f8f;
-  --clr-red-500:#ff6b6b;
-  --clr-red-600:#e05555;
-  --clr-red-700:#b84242;
-  --clr-red-800:#913030;
-  --clr-red-900:#661f1f;
+  /* Honey Gold */
+  --clr-honey-100: #fff6e5;
+  --clr-honey-200: #ffe8c2;
+  --clr-honey-300: #ffd89c;
+  --clr-honey-400: #ffc070;
+  --clr-honey-500: #ffa552; /* base */
+  --clr-honey-600: #e69449; /* base darker */
+  --clr-honey-700: #cc7f3f;
+  --clr-honey-800: #b36b35;
+  --clr-honey-900: #8c5228;
 
-  --clr-blue-100:#eef6ff;
-  --clr-blue-200:#d9eaff;
-  --clr-blue-300:#c2ddff;
-  --clr-blue-400:#a9cfff;
-  --clr-blue-500:#8ec5ff; 
-  --clr-blue-600:#6ea8dc;
-  --clr-blue-700:#4f89b8;
-  --clr-blue-800:#356a93;
-  --clr-blue-900:#1f4d6e;
+  /* Cream */
+  --clr-cream-100: #fffdf7;
+  --clr-cream-200: #fff7e8;
+  --clr-cream-300: #fff0d6;
+  --clr-cream-400: #ffe6bf;
+  --clr-cream-500: #fcde9c; /* base */
+  --clr-cream-600: #e3c789; /* base darker */
+  --clr-cream-700: #c9b076;
+  --clr-cream-800: #a89463;
+  --clr-cream-900: #7d6f4a;
+
+  /* Earth Brown */
+  --clr-earth-100: #f3e4db;
+  --clr-earth-200: #e2c7b6;
+  --clr-earth-300: #d1aa91;
+  --clr-earth-400: #c08c6b;
+  --clr-earth-500: #ba5624; /* base */
+  --clr-earth-600: #a24b20; /* base darker */
+  --clr-earth-700: #8a401b;
+  --clr-earth-800: #713516;
+  --clr-earth-900: #592a11;
+
+  /* Deep Plum */
+  --clr-plum-100: #e9d6de;
+  --clr-plum-200: #d3adbd;
+  --clr-plum-300: #bd849c;
+  --clr-plum-400: #a75b7b;
+  --clr-plum-500: #381d2a; /* base */
+  --clr-plum-600: #2f1823; /* base darker */
+  --clr-plum-700: #26131c;
+  --clr-plum-800: #1d0e15;
+  --clr-plum-900: #14090e;
+
+  /* Sage Green */
+  --clr-sage-100: #f1f5ea;
+  --clr-sage-200: #e3ebd5;
+  --clr-sage-300: #d5e1c0;
+  --clr-sage-400: #c9dab4;
+  --clr-sage-500: #c4d6b0; /* base */
+  --clr-sage-600: #afc19d; /* base darker */
+  --clr-sage-700: #98a987;
+  --clr-sage-800: #819071;
+  --clr-sage-900: #6a775c;
 
   --clr-white:#fff;
   --clr-black:#000;
