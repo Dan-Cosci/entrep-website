@@ -1,0 +1,28 @@
+.AuthLayout{
+  min-height: 100vh;
+  background: linear-gradient(
+    120deg,
+    var(--clr-honey-500), 
+    var(--clr-cream-400),
+    var(--clr-plum-300)
+    );
+
+  background-size: 200% 400%;
+  animation: authlayout-gradient 10s ease infinite;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes authlayout-gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

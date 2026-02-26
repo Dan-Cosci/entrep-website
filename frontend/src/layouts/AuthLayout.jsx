@@ -1,11 +1,13 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-
+import './AuthLayout.css'
 
 
 const AuthLayout = () => {
   return (
-    <Outlet />
+    <div className="AuthLayout">
+      <Outlet />
+    </div>
   )
 }
 

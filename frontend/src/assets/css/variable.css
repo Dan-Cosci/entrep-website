@@ -55,6 +55,7 @@
   --clr-sage-900: #6a775c;
 
   --clr-white:#fff;
+  --clr-white-t:rgba(255,255,255,0.70);
   --clr-black:#000;
 
   --fs-sm:  calc(0.8rem  + 0.2vw);

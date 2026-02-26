@@ -1,0 +1,21 @@
+.AuthInput{
+  padding: var(--space-md);
+  border: none;
+  border-radius: .5rem;
+  background-color: var(--clr-white);
+  width: 100%;
+  
+  font-size: var(--fs-md);
+  color: var(--clr-plum-600);
+  transition: all .2s ease-in-out;
+
+  &:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px var(--clr-plum-400); /* fake border */
+  }
+
+  &::placeholder {
+    color: var(--clr-plum-300);
+  }
+}
+
