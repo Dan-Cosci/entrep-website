@@ -32,16 +32,16 @@
   --clr-earth-800: #713516;
   --clr-earth-900: #592a11;
 
-  /* Deep Plum */
-  --clr-plum-100: #e9d6de;
-  --clr-plum-200: #d3adbd;
-  --clr-plum-300: #bd849c;
-  --clr-plum-400: #a75b7b;
-  --clr-plum-500: #381d2a; /* base */
-  --clr-plum-600: #2f1823; /* base darker */
-  --clr-plum-700: #26131c;
-  --clr-plum-800: #1d0e15;
-  --clr-plum-900: #14090e;
+ /* Deep Plum */
+--clr-plum-100: #f2e4ea;
+--clr-plum-200: #e3c7d3;
+--clr-plum-300: #d2a9bd;
+--clr-plum-400: #b97fa0;
+--clr-plum-500: #8e4f6f;
+--clr-plum-600: #6a3652;
+--clr-plum-700: #4f2740;
+--clr-plum-800: #381d2a; /* base */
+--clr-plum-900: #24131c;
 
   /* Sage Green */
   --clr-sage-100: #f1f5ea;
@@ -57,11 +57,19 @@
   --clr-white:#fff;
   --clr-black:#000;
 
-  --fs-sm:.8rem;
-  --fs-md:1rem;
-  --fs-lg:1.2rem;
-  --fs-xl:1.4rem;
-  --fs-2xl:1.6rem;
-  --fs-3xl:1.8rem;
-  --fs-4xl:2rem;
+  --fs-sm:  calc(0.8rem  + 0.2vw);
+  --fs-md:  calc(1rem    + 0.3vw);
+  --fs-lg:  calc(1.2rem  + 0.4vw);
+  --fs-xl:  calc(1.4rem  + 0.6vw);
+  --fs-2xl: calc(1.6rem  + 0.8vw);
+  --fs-3xl: calc(1.8rem  + 1vw);
+  --fs-4xl: calc(2rem    + 1.5vw);
+
+  --space-sm: 0.5rem;     
+  --space-md: 0.75rem;    
+  --space-lg: 1.25rem;    
+  --space-xl: 1.75rem;    
+  --space-2xl: 2.5rem;    
+  --space-3xl: 3.5rem;    
+  --space-4xl: 4.5rem;    
 }

@@ -1,0 +1,28 @@
+.page-404{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & .title{
+    font-size: var(--fs-3xl);
+    color: var(--clr-plum-500);
+    margin-bottom: var(--space-sm);
+  }
+
+  & .text {
+    font-size: var(--fs-md);
+    margin-bottom: var(--space-xl);
+    color: var(--clr-plum-500);
+  }
+
+  & .link{
+    font-size: var(--fs-sm);
+    color: var(--clr-plum-500);
+
+    &:hover{
+      color: var(--clr-sage-500);
+    }
+  }
+}

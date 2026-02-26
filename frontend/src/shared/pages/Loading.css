@@ -11,16 +11,17 @@
   border: 5px solid #f3f3f3;
   border-top: 5px solid var(--clr-plum-400);
   border-radius: 50%;
-  animation: spin 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+  animation: loading-spin 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
 }
 
 .loading-text{
-  margin-top: 1rem;
+  margin-top: var(--space-xl);
   font-size: var(--fs-xl);
+  color: var(--clr-plum-400);
   animation: loading-bounce 1s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
 }
 
-@keyframes spin {
+@keyframes loading-spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
