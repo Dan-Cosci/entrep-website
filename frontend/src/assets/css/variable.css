@@ -58,13 +58,13 @@
   --clr-white-t:rgba(255,255,255,0.70);
   --clr-black:#000;
 
-  --fs-sm:  calc(0.8rem  + 0.2vw);
-  --fs-md:  calc(1rem    + 0.3vw);
-  --fs-lg:  calc(1.2rem  + 0.4vw);
-  --fs-xl:  calc(1.4rem  + 0.6vw);
-  --fs-2xl: calc(1.6rem  + 0.8vw);
-  --fs-3xl: calc(1.8rem  + 1vw);
-  --fs-4xl: calc(2rem    + 1.5vw);
+  --fs-sm:  clamp(0.8rem, calc(0.8rem + 0.2vw), 1rem);
+  --fs-md:  clamp(1rem,   calc(1rem + 0.3vw),   1.2rem);
+  --fs-lg:  clamp(1.2rem, calc(1.2rem + 0.4vw), 1.5rem);
+  --fs-xl:  clamp(1.4rem, calc(1.4rem + 0.6vw), 1.8rem);
+  --fs-2xl: clamp(1.6rem, calc(1.6rem + 0.8vw), 2.2rem);
+  --fs-3xl: clamp(1.8rem, calc(1.8rem + 1vw),   2.6rem);
+  --fs-4xl: clamp(2rem,   calc(2rem + 1.5vw),   3rem);
 
   --space-sm: 0.5rem;     
   --space-md: 0.75rem;    
