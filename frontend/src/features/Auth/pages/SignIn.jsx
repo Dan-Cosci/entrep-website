@@ -3,6 +3,7 @@ import AuthInput from '../components/AuthInput'
 import AuthButton from '../components/AuthButton'
 
 import './SignIn.css'
+import { signInWithGoogle } from '../services/auth.service'
 
 const SignIn = () => {
 
@@ -14,6 +15,12 @@ const SignIn = () => {
     console.log(email,password);
   }
 
+  const handleGoogle = async () => {
+    const res = await signInWithGoogle();
+    console.log(res.user.displayName)
+  }
+
+
   return (
     <div className="SignIn-card">
       <h1>Sign In</h1>
@@ -22,6 +29,7 @@ const SignIn = () => {
         <AuthInput type="password" placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} />
         <AuthButton type="submit">Sign Up</AuthButton>
       </form>
+      <button onClick={handleGoogle}>GOOGLE</button>
     </div>
   )
 }

@@ -8,8 +8,10 @@ import { RouterProvider} from 'react-router-dom'
 import Router from './routes/routes'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <RouterProvider router={Router} />
-    <Toaster />
-  </StrictMode>,
+  <>
+    {/* <StrictMode> */}
+      <RouterProvider router={Router} />
+      <Toaster />
+    {/* </StrictMode> */}
+  </>
 )
