@@ -28,3 +28,12 @@ form {
   width: 100%;
   max-width: 400px;
 }
+
+.ProviderContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+
+}

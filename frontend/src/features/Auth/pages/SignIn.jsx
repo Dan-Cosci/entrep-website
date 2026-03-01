@@ -1,9 +1,13 @@
 import React, { useState } from 'react'
-import AuthInput from '../components/AuthInput'
-import AuthButton from '../components/AuthButton'
 
 import './SignIn.css'
-import { signInWithGoogle } from '../services/auth.service'
+import { FaFacebook, FaGoogle } from 'react-icons/fa' 
+
+import AuthInput from '../components/AuthInput'
+import AuthButton from '../components/AuthButton'
+import AuthProviderButton from '../components/AuthProviderButton'
+
+import { googleSignIn } from '../services/auth.service'
 
 const SignIn = () => {
 
@@ -16,9 +20,15 @@ const SignIn = () => {
   }
 
   const handleGoogle = async () => {
-    const res = await signInWithGoogle();
+    const res = await googleSignIn();
     console.log(res.user.displayName)
   }
+  
+  const handleFacebook = async () => {
+    const res = await googleSignIn();
+    console.log(res.user.displayName)
+  }
+  
 
 
   return (
@@ -29,7 +39,11 @@ const SignIn = () => {
         <AuthInput type="password" placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} />
         <AuthButton type="submit">Sign Up</AuthButton>
       </form>
-      <button onClick={handleGoogle}>GOOGLE</button>
+      <div className="ProviderContainer">
+        <AuthProviderButton onClick={handleGoogle}><FaGoogle /></AuthProviderButton>
+        <AuthProviderButton onClick={handleFacebook}><FaFacebook /></AuthProviderButton>
+
+      </div>
     </div>
   )
 }
