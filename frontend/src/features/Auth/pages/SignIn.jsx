@@ -30,8 +30,7 @@ const SignIn = () => {
     console.log('This no implimented yet')
     toast.error('This no implimented yet')
   }
-  
-
+  a
 
   return (
     <div className="SignIn-card">
@@ -48,7 +47,6 @@ const SignIn = () => {
       <div className="ProviderContainer">
         <AuthProviderButton onClick={handleGoogle}><FaGoogle /></AuthProviderButton>
         <AuthProviderButton onClick={handleFacebook}><FaFacebook /></AuthProviderButton>
-
       </div>
     </div>
   )

@@ -33,7 +33,7 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: var(--space-md);
   width: 100%;
 
 }
@@ -41,8 +41,12 @@ form {
 .check-container{
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: flex-end;
+  gap: var(--space-sm);
   width: 100%;
+
+
+  color: var(--clr-earth-400);
+  font-size: var(--fs-md);
 
 }
