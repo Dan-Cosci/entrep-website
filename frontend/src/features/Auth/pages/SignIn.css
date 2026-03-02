@@ -37,3 +37,12 @@ form {
   width: 100%;
 
 }
+
+.check-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+
+}
