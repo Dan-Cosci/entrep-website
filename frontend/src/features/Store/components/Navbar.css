@@ -1,8 +1,28 @@
-.Header{
-  position: absolute;
-  width: 100vw;
-  height: 15%;
-  top: 0;
-  left: 0;
-  background-color:red;
+
+.nav{
+  background: linear-gradient(
+    120deg,
+    var(--clr-honey-500), 
+    var(--clr-honey-300),
+    var(--clr-honey-500)
+  );
+
+  height: 5rem;
+
+  background-size: 200% 400%;
+  animation: navbar-gradient 10s ease infinite;
+
+}
+
+
+@keyframes navbar-gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

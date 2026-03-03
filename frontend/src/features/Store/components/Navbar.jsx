@@ -4,7 +4,9 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <header className='Header'>
-      helo
+      <nav className='nav'>
+        fdas
+      </nav>
     </header>
   )
 }
