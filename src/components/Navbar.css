@@ -1,0 +1,15 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 5rem;
+}
+
+ul {
+  display: flex;
+  align-items: flex-start;
+}
+
+.left {
+  display: flex;
+}
