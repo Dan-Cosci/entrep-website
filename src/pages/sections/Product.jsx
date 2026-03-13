@@ -11,7 +11,10 @@ const Product = () => {
   return (
     <div className="products">
       <section className="ingredients">
-        <h2>Ingredients</h2>
+        <div className="-product-text">
+          <h1>Ingredients</h1>
+          <p>we only choose the freshest ingredients for our products</p>
+        </div>
         <div className="ingredient-cards">
           <IngredientCard name="Filipino Spices" img={spices} text='lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'/>
           <IngredientCard name="Chicken" img={chicken} text='lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'/>
