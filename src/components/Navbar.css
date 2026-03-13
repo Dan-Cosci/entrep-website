@@ -2,14 +2,29 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1rem 5rem;
+  margin: 0 var(--space-xl);
 }
 
 ul {
   display: flex;
   align-items: flex-start;
+  gap: var(--space-lg);
+  color: var(--clr-earth-800);
+
+  & li{
+    transition: all 0.2s ease-in-out;
+  }
+
+  & li:hover{
+    cursor: pointer;
+    color: var(--clr-earth-400);
+    transform: translateY(-10%);
+  } 
 }
 
 .left {
   display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  color: var(--clr-earth-800);
 }

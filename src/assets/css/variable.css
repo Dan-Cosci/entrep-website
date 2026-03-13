@@ -2,7 +2,7 @@
   /* Honey Gold */
   --clr-honey-100: #fff6e5;
   --clr-honey-200: #ffe8c2;
-  --clr-honey-300: #ffd89c;
+  --clr-honey-300: rgb(255, 216, 156);
   --clr-honey-400: #ffc070;
   --clr-honey-500: #ffa552; /* base */
   --clr-honey-600: #e69449; /* base darker */
@@ -72,5 +72,7 @@
   --space-xl: 1.75rem;    
   --space-2xl: 2.5rem;    
   --space-3xl: 3.5rem;    
-  --space-4xl: 4.5rem;    
+  --space-4xl: 4.5rem;
+  
+  --shadow-glow-honey: 0 0 20px rgba(255, 216, 156, 0.5);
 }

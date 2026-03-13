@@ -14,10 +14,10 @@ const Navbar = () => {
 
       <div className="right">
         <ul>
-          <li>1item</li>
-          <li>2item</li>
-          <li>3item</li>
-          <li>4item</li>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Preorder</li>
         </ul>
       </div>
     </nav>
