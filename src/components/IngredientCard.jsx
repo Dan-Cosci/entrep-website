@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
 import './IngredientCard.css'
 
-const IngredientCard = ({name, text, img}) => {
+const IngredientCard = forwardRef(({name, text, img, ...props}, ref) => {
   return (
-    <div className="ingredient-card">
+    <div className="ingredient-card" ref={ref} {...props}>
       <img src={img} alt={name} />
       <div className="text">
         <h3>{name}</h3>
@@ -12,6 +12,6 @@ const IngredientCard = ({name, text, img}) => {
       </div>
     </div>
   )
-}
+})
 
 export default IngredientCard
