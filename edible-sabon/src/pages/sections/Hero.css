@@ -1,0 +1,43 @@
+.hero{
+  min-height: 50vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  animation: hero-show 0.5s ease-out forwards;
+}
+
+.hero-img{
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(0.5);
+}
+
+.hero-content{
+  text-align: center;
+  align-items: center;
+  color: var(--clr-white);
+
+  & h1{
+    font-family: var(--font-accent);
+    font-size: var(--fs-4xl);
+  }
+
+  & p {
+    font-size: var(--fs-md);
+  }
+}
+
+
+@keyframes hero-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

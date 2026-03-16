@@ -1,0 +1,41 @@
+/* ===== Global Reset ===== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Prevents layout width issues */
+}
+
+/* ===== Root Defaults ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Links ===== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== Lists ===== */
+ul,
+ol {
+  list-style: none;
+}
+
+/* ===== Media ===== */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
