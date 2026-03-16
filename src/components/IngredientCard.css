@@ -8,11 +8,11 @@
   display: flex;
   flex-direction: column;
   /* Change 'all' to only the props you need for hover */
-  transition: box-shadow 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, box-shadow 0.5s ease-in-out;
 
   &:hover {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: translateY(-25%);
     box-shadow: var(--shadow-glow-honey);
   }
   & img {

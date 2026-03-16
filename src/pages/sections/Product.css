@@ -4,6 +4,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+ 
+  background:
+    repeating-linear-gradient(
+      90deg,
+      rgba(0,0,0,0.05) 0px,
+      rgba(0,0,0,0.05) 2px,
+      transparent 2px,
+      transparent 50px
+    ),
+    repeating-linear-gradient(
+      -180deg,
+      rgba(0,0,0,0.05) 0px,
+      rgba(0,0,0,0.05) 2px,
+      transparent 2px,
+      transparent 50px
+    );
 }
 
 .ingredients{
@@ -26,4 +43,20 @@
   gap: var(--space-lg);
   flex-wrap: wrap;
 
+  & > * {
+    opacity: 0;
+    transition: transform 0.3s ease-in-out;
+    animation: product-show-card 0.5s ease-out forwards;  
+  }
+
+  & :nth-child(1){ animation-delay: 0.1s; }
+  & :nth-child(2){ animation-delay: 0.2s; }
+  & :nth-child(3){ animation-delay: 0.3s; }
+  & :nth-child(4){ animation-delay: 0.4s; }
 }
+
+@keyframes product-show-card {
+  from { opacity: 0; transform: translateY(50%); }
+  to { opacity: 1; transform: translateY(0); }
+}
+

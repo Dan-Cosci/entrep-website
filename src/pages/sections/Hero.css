@@ -3,7 +3,9 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  opacity: 0;
+  animation: hero-show 0.5s ease-out forwards;
 }
 
 .hero-img{
@@ -16,10 +18,6 @@
 }
 
 .hero-content{
-  /* position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   text-align: center;
   align-items: center;
   color: var(--clr-white);
@@ -31,5 +29,15 @@
 
   & p {
     font-size: var(--fs-md);
+  }
+}
+
+
+@keyframes hero-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

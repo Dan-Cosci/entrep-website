@@ -1,8 +1,12 @@
 import React from 'react'
 
+import './Testimonials.css'
+
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <section className="testimonial">
+      <h1>hello</h1>
+    </section>
   )
 }
 
