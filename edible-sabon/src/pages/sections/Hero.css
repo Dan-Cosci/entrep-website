@@ -21,14 +21,52 @@
   text-align: center;
   align-items: center;
   color: var(--clr-white);
+  padding: 0 var(--space-md);
 
   & h1{
     font-family: var(--font-accent);
     font-size: var(--fs-4xl);
+    margin-bottom: var(--space-md);
   }
 
   & p {
     font-size: var(--fs-md);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+/* Mobile responsiveness for Hero */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+  }
+  
+  .hero-img {
+    height: 60vh;
+  }
+  
+  .hero-content h1 {
+    font-size: var(--fs-3xl);
+  }
+  
+  .hero-content p {
+    font-size: var(--fs-sm);
+    padding: 0 var(--space-sm);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    min-height: 70vh;
+  }
+  
+  .hero-img {
+    height: 70vh;
+  }
+  
+  .hero-content h1 {
+    font-size: var(--fs-2xl);
   }
 }
 

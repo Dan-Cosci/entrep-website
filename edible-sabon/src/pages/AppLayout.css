@@ -1,2 +1,10 @@
 .content{
+  padding-top: 1rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .content {
+    padding-top: 0.5rem;
+  }
 }

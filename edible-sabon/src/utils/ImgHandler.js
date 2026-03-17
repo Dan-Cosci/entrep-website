@@ -12,7 +12,7 @@ const ImgHandler = {
     p2:'https://res.cloudinary.com/dktk8zj3c/image/upload/v1772043570/samples/woman-on-a-football-field.jpg',
     p3:'https://res.cloudinary.com/dktk8zj3c/image/upload/v1772043566/samples/outdoor-woman.jpg',
     p4:'https://res.cloudinary.com/dktk8zj3c/image/upload/v1772043566/samples/look-up.jpg'
-  }
+  } 
 
 }
 
