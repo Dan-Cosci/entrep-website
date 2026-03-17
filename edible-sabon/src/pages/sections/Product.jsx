@@ -20,6 +20,18 @@ const Product = () => {
           <IngredientCard name="Soy" img={ImgHandler.ingredients.soy} text='lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'/>
         </div>
       </section>
+      <section className="description">
+        <img src={ImgHandler.product} alt="adobites" />
+        <div className="description-text">
+          <h1>Adobites</h1>
+          <p>
+            A modern twist on the classic Filipino adobo. Adobites are bite-sized,
+            flavor-packed pieces made from premium chicken and pork, infused with
+            authentic spices and soy. Perfect for snacking, sharing, or enjoying
+            anytime you crave a bold Filipino taste.
+          </p>
+        </div>
+      </section>
     </div>
   )
 }

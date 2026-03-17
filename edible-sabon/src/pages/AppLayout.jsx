@@ -4,6 +4,7 @@ import Hero from './sections/Hero'
 import Testimonials from './sections/Testimonials'
 import Product from './sections/Product'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 import './AppLayout.css'
 
@@ -14,6 +15,7 @@ const AppLayout = () => {
       <Hero />
       <Product />
       <Testimonials />
+      <Footer />
     </div>
   )
 }

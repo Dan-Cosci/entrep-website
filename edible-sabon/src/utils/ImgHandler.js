@@ -1,5 +1,6 @@
 const ImgHandler = {
   hero:'https://res.cloudinary.com/dktk8zj3c/image/upload/v1773709313/hero-pl_avfpax.jpg',
+  product:'https://res.cloudinary.com/dktk8zj3c/image/upload/v1773709315/pl1_emgv8y.jpg',
   ingredients:{
     spices:'https://res.cloudinary.com/dktk8zj3c/image/upload/v1773709286/ingredients_q7x9wu.jpg',
     soy:'https://res.cloudinary.com/dktk8zj3c/image/upload/v1773709286/ingredients4_zeavqt.jpg',
